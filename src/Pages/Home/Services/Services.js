@@ -10,10 +10,12 @@ const Services = () => {
   return (
     <div>
       <h2 className="text-center text-primary">Total Roam {roam.length}</h2>
-      <div className="row">
-        {roam.map((roam) => (
-          <Service key={roam._id} roam={roam}></Service>
-        ))}
+      <div className="container">
+        <div className="row gx-4">
+          {roam.map((roam) => (
+            <Service key={roam._id} roam={roam}></Service>
+          ))}
+        </div>
       </div>
     </div>
   );
