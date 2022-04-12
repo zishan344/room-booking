@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "62551ca7b4e54ffb4e4b3dec",
+    "picture": "https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?size=626&ext=jpg&ga=GA1.2.667994152.1649033771",
+    "rating": 3.1,
+    "price": 350,
+    "name": "Miles Neal"
+  },
+  {
+    "_id": "62551ca71607833529e94c10",
+    "picture": "https://img.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg?size=626&ext=jpg&ga=GA1.2.667994152.1649033771",
+    "rating": 2.4,
+    "price": 999,
+    "name": "Alyce Mccarty"
+  },
+  {
+    "_id": "62551ca7a1179bca27ab63c3",
+    "picture": "https://img.freepik.com/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.jpg?w=740&t=st=1649744404~exp=1649745004~hmac=173d26473bfeb8ad3b66c008a874a6aaf1601068bd4cb7db3460d4f8ce66e3cc",
+    "rating": 5,
+    "price": 999,
+    "name": "Ivy Morrow"
+  },
+  {
+    "_id": "62551ca7acdd403aca74dfcc",
+    "picture": "https://img.freepik.com/free-photo/dining-living-room-luxury-beach-house_42251-23.jpg?size=626&ext=jpg&ga=GA1.2.667994152.1649033771",
+    "rating": 3.5,
+    "price": 999,
+    "name": "Booth Ashley"
+  },
+  {
+    "_id": "62551ca78d1bf955b8e2ac39",
+    "picture": "https://img.freepik.com/free-photo/home-house-exterior-design-showing-tropical-pool-villa-with-greenery-garden-sun-bed-umbrella-pool-towels_41487-361.jpg?size=626&ext=jpg&ga=GA1.2.667994152.1649033771",
+    "rating": 1.11,
+    "price": 350,
+    "name": "Vivian Jennings"
+  },
+  {
+    "_id": "62551ca71747ce131545c660",
+    "picture": "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?size=626&ext=jpg&ga=GA1.2.667994152.1649033771",
+    "rating": 4.1,
+    "price": 999,
+    "name": "Sosa"
+  },
+  {
+    "_id": "62551ca71747ce131545c680",
+    "picture": "https://img.freepik.com/free-photo/elegant-hotel-room-with-big-bed_1203-1494.jpg?size=626&ext=jpg&ga=GA1.2.667994152.1649033771",
+    "rating": 1,
+    "price": 979,
+    "name": "Jonea bord"
+  },
+  {
+    "_id": "62551ca71747ce131545c860",
+    "picture": "https://img.freepik.com/free-photo/modern-luxury-bedroom-with-queen-size-white-bed-dressing-table-3d-rendering_308721-349.jpg?w=740",
+    "rating": 4.66,
+    "price": 989,
+    "name": "rtir mor"
+  },
+  {
+    "_id": "62551ca71747ce131545c670",
+    "picture": "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?size=626&ext=jpg&ga=GA1.2.667994152.1649033771",
+    "rating": 5,
+    "price": 599,
+    "name": "ritrar"
+  },
+  {
+    "_id": "62551ca71747ce1315459660",
+    "picture": "https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?size=626&ext=jpg&ga=GA1.2.667994152.1649033771",
+    "rating": 2.5,
+    "price": 821,
+    "name": "bitrar"
+  }
+]
