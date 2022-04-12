@@ -67,7 +67,7 @@ const Register = () => {
                 placeholder="Password"
               />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="current-password">
               <Form.Label>Confirm Password</Form.Label>
               <Form.Control
                 onBlur={handleConfirmPasswordBlur}
@@ -76,7 +76,7 @@ const Register = () => {
               />
               <p className="text-danger">{myError}</p>
             </Form.Group>
-            <div class="d-flex align-items-end">
+            <div className="d-flex align-items-end">
               <Link className="me-2" to="/login">
                 <span className="text-primary">Already have an account</span>
               </Link>

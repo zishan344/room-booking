@@ -5,7 +5,7 @@ import Rating from "react-rating";
 import { useNavigate } from "react-router-dom";
 const Service = ({ roam }) => {
   const { name, picture, rating, price } = roam;
-  // eslint-disable-next-line no-unused-vars
+
   const navigate = useNavigate();
   return (
     <div className="col-12 col-md-6 col-lg-4">

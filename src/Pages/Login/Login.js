@@ -1,7 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
-import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
+import {
+  useSignInWithEmailAndPassword,
+  useSignInWithFacebook,
+  useSignInWithGithub,
+  useSignInWithGoogle,
+} from "react-firebase-hooks/auth";
 import { AiFillGithub } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
@@ -13,6 +18,12 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
+  // use sign in facebook
+  const [signInWithFacebook] = useSignInWithFacebook(auth);
+  // use sign in google
+  const [signInWithGoogle] = useSignInWithGoogle(auth);
+  // use sign in github
+  const [signInWithGithub] = useSignInWithGithub(auth);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -55,7 +66,7 @@ const Login = () => {
                 placeholder="Password"
               />
             </Form.Group>
-            <div class="d-flex align-items-end">
+            <div className="d-flex align-items-end">
               <Link className="me-2" to="/register">
                 <span className="text-red">Create an account</span>
               </Link>
@@ -67,13 +78,13 @@ const Login = () => {
           <div>
             <h2>Or</h2>
             <div>
-              <button className="btn">
+              <button onClick={() => signInWithGoogle()} className="btn">
                 <FcGoogle />
               </button>
-              <button className="btn">
+              <button onClick={() => signInWithGithub()} className="btn">
                 <AiFillGithub />
               </button>
-              <button className="btn">
+              <button onClick={() => signInWithFacebook()} className="btn">
                 <BsFacebook />
               </button>
             </div>

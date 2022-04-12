@@ -24,7 +24,7 @@ const Header = () => {
               <Link to="/inventory">Inventory</Link>{" "}
             </Nav.Link>
             {user ? (
-              <Button onClick={() => signOut(auth)} Variant="primary">
+              <Button onClick={() => signOut(auth)} variant="primary">
                 Sign Out
               </Button>
             ) : (
